@@ -1,0 +1,184 @@
+/*  */
+*{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+/*  */
+
+/* header css strat */
+    .main_header{
+        background-color: rgb(211,239,240);
+    }
+
+    .header_wallet_img{
+        width: 10%;
+    }
+    .header_wallet_text{
+        width: 20%;
+        margin-top: 10%;
+    }
+    .header_text_right{
+        color: rgb(163,224,224);
+        padding-left: 10%;
+    }
+
+    .header_content_left{
+        background-color: rgb(255,92,37);
+        border-radius: 20px 0px 20px 20px;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+    }
+    h2{
+        font-size: 100px;
+        color: rgb(255,254,253);
+        text-shadow: 7px 7px rgb(231,45,0);
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        color: rgb(255,254,247);
+    }
+    ul li::before {
+        content: "\2022";
+        color: rgb(163,223,230);
+        font-size: 30px;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      }
+    .header_text_left{
+        padding-left: 30%;
+    }
+
+    .dow_btn{
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        padding: 2%;
+    }
+/* header css end */
+
+/* section css strat */
+    .section{
+        background-color: rgb(211,239,240);
+    }
+    .section_header_text{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .font_color{
+        color: rgb(255,92,39);
+    }
+    .section_three{
+        background-color: rgb(200,230,231);
+    }
+    .section_content{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .mobile_image{
+        width: 20%;
+        padding-bottom: 2%;
+    }
+    .verified_image{
+        width: 20%;
+        padding-bottom: 2%;
+    }
+    .iot_image{
+        width: 20%;
+        padding-bottom: 2%;
+    }
+    .column_1{
+        background-color: rgb(200,230,231);
+        padding: 2%;
+        border-radius: 20px 0 0 20px;
+        border-right: 1px solid gray;
+    }
+    .column_2{
+        background-color: rgb(200,230,231);
+        border-right: 1px solid gray;
+        padding: 2%;
+    }
+    .column_3{
+        background-color: rgb(200,230,231);
+        padding: 2%;
+        border-radius: 0 20px 20px 0;
+    }
+/* section css end */
+
+/* footer css strat */
+
+    .main_footer{
+        padding: 2%;
+        background-color: rgb(211,239,240);
+    }
+    .footer_right{
+        padding: 2%;
+    }
+    .footer_imagr{
+    }
+    .footer_wallet_img{
+        width: 10%;
+        text-align: start;
+    }
+    .footer_wallet_text{
+        width: 20%;
+    }
+    .call_text{
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        background-color: black;
+        width: 30%;
+    }
+    .call_num{
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        background-color: black;
+        width: 50%;
+    }
+
+    .footer_center{
+        padding: 2%;
+    }
+    .copy_right_text{
+        font-size: 90%;
+    }
+    .footer_left{
+        padding: 2%;
+    }
+    ul2{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(35,41,43);
+    }
+    .qr_img img{
+        width: 20%;
+        height: 20%;
+    }
+    .footer_icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .footer_content{
+        background-color: rgb(200,230,231);
+    }
+/* footer css end */
